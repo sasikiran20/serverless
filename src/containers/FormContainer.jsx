@@ -183,6 +183,7 @@ constructor(props) {
     axios.post('https://xep2bmkz4h.execute-api.us-east-1.amazonaws.com/stage/',userData)
       .then(function (response) {
         console.log(response);
+        alert("Successfully Uploaded the Data!!");
       })
       
  
